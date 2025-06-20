@@ -5,8 +5,9 @@
 
 ## How to run
 
--step1: clone the repo
+
 ```bash
+-step1: clone the repo
 git clone https://github.com/iragenashemac/simple-rest-api.git
 cd simple-rest-api
 
@@ -26,6 +27,6 @@ curl -X POST http://localhost:5000/users \
 -H "Content-Type: application/json" \
 -d '{"name": "John Doe", "email": "john@example.com"}'
 
-##Get a User by ID:
+  ##Get a User by ID:
 
 curl http://localhost:5000/users/<user_id> #replace the <user_id> with the actual id hashed generated id
