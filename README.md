@@ -7,7 +7,7 @@
 
 
 ```bash
-step1: clone the repo
+step1:#clone the repo
 git clone https://github.com/iragenashemac/simple-rest-api.git
 cd simple-rest-api
 
