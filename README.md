@@ -19,14 +19,14 @@ python app.py
 
 # The api will be avialable at, http://localhost:5000
 
- #Example Requests
+ Example Requests
 
-   ##Create a User:
+   #Create a User:
 
 curl -X POST http://localhost:5000/users \
 -H "Content-Type: application/json" \
 -d '{"name": "John Doe", "email": "john@example.com"}'
 
-  ##Get a User by ID:
+  #Get a User by ID:
 
 curl http://localhost:5000/users/<user_id> #replace the <user_id> with the actual id hashed generated id
