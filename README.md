@@ -7,12 +7,12 @@
 
 
 ```bash
--step1: clone the repo
+step1: clone the repo
 git clone https://github.com/iragenashemac/simple-rest-api.git
 cd simple-rest-api
 
 step2:# install the Flask dependencies
-pip install -r requiements.txt # this contains the name Flass and will replace the requirements.txt
+pip install -r requiements.txt # this contains the name Flask and will replace the requirements.txt
 
 step3:# run the app.py
 python app.py
